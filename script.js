@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /***** GEMINI (NetWise) API Integration *****/
   // Keep the key here for local dev; consider moving to server for production
-  const GEMINI_API_KEY = "AIzaSyAvWfZqVWS9BRg4sFQRgKstub68HiCRxlQ";
+  const GEMINI_API_KEY = "";
   const MODEL_NAME = "gemini-2.5-flash";
   const systemInstructionText = `
 You are NetWise — an AI that ONLY answers Computer Networking questions:
